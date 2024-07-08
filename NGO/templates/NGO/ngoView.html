@@ -1,0 +1,25 @@
+{% extends 'NGO/base.html' %}
+{% load static %}
+{% block title %}
+<link rel="stylesheet" type="text/css" href="{% static 'ngoView.css' %}">
+{% endblock %}
+{% block content %}
+    <div class="card-container" style="margin-left: auto; margin-right:auto; margin-top: auto;">
+        <div class="card" >
+            <h1>{{ ngo.name }}</h1>
+            <img src="{% static 'images/logos/' %}{{ ngo.logo }}" alt="NGO Image">
+            <hr>
+            <p>
+                {{ ngo.description }}
+            </p>
+            <div class="card-buttons">
+                <form action="{% url 'volunteer_for_ngo' ngo_id=ngo.id %}" method="post">
+                    {% csrf_token %}
+                    <button type="submit">Volunteer</button>
+                </form>
+                <a href="{% url "donation" %}"><button type="submit">Donate</button></a>
+                
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,44 @@
+{% extends 'NGO/base.html' %}
+{% load static %}
+{% block title %}
+<link rel="stylesheet" type = "text/css" href="{% static 'userProfile.css' %}">
+{% endblock %}
+{% block content %}
+<main class="profile-container">
+    <div class="profile-header">
+      <div class="profile-photo">
+        <img id="profileImage" src="{% static profile.image %}" alt="Profile Photo">
+        <input type="file" id="uploadPhoto" accept="image/*" onchange="loadFile(event)">
+        <label for="uploadPhoto">+</label>
+      </div>
+      <div class="profile-details">
+        <h2 id="userName">{{profile.user.username}}</h2>
+        <p id="userEmail">{{profile.user.email}}</p>
+        <p id="userPhone">{{profile.user.phone}}</p>
+        <p id="userNgo">NGO: Save the gorillas</p>
+      </div>
+    </div>
+    <div class="profile-content">
+      <h3>Volunteering Activities</h3>
+      <ul id="volunteeringList">
+        {% for volunteer in ngos %}
+            {% for ngo in volunteer.ngos_volunteering.all %}
+                <li>{{ ngo.name }}</li>
+            {% endfor %}
+        {% empty %}
+            <li>No NGOs volunteered yet.</li>
+        {% endfor %}
+    </ul>
+    </div>
+  </main>
+  <script>
+    function loadFile(event) {
+    var image = document.getElementById('profileImage');
+    image.src = URL.createObjectURL(event.target.files[0]);
+    image.onload = function() {
+      URL.revokeObjectURL(image.src); // free memory
+    }
+  }
+  
+  </script>
+{% endblock %}

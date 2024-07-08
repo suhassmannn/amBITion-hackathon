@@ -1,0 +1,209 @@
+[
+    {
+        "name" : "Blue Cross of India",
+        "description" : "Founded in 1959, this Chennai-based NGO operates animal shelters, veterinary clinics, and advocacy programs across the country. It is well-known for its Animal Birth Control (ABC) program, which has been instrumental in managing the street dog population humanely​.",
+        "logo" : "BlueCrossofIndia.png",
+        "phone" : "+91-9962998886",
+        "email" : "admin@bluecrossofindia.org",
+        "category": "Animal Welfare",
+        "location": "Chennai"
+    },
+    {
+        "name" : "Animal Welfare Board of India",
+        "description" : "The Animal Welfare Board of India is a statutory advisory body on Animal Welfare Laws and promotes animal welfare in the country. Established in 1962 under Section 4 of the Prevention of Cruelty to Animals Act, 1960 (No. 59 of 1960), the Animal Welfare Board of India was started under the stewardship of Late Smt. Rukmini Devi Arundale, well known humanitarian. From ensuring that animal welfare laws in the country are diligently followed, to provide grants to Animal Welfare Organizations and advising the Government of India on animal welfare issues, the Board has been the face of the animal welfare movement in the country for the last 60 years.\nThrough its services, Board ensures that animal welfare laws in the country are diligently followed, provides grants to Animal Welfare Organizations and advises the Government of India on animal welfare issues.\nThe Board consists of 28 Members including 6 Members of Parliament (2 Members of Parliament from Rajya Sabha and 4 Members of Parliament from Lok Sabha).\nThe Board consists of 28 Members. The term of office of Members is for a period of 3 years.",
+        "logo" : "AnimalWelfare.png",
+        "phone" : "+91-9650609880",
+        "email" : "awbi@gov.in",
+        "category": "Animal Welfare",
+        "location": "Bengaluru"
+    },
+    {
+        "name" : "Sanjay Gandhi Animal Care Centre",
+        "description" : "WELCOME TO SANJAY GANDHI ANIMAL CARE CENTRE (SGACC).We are India's oldest and Delhi's largest all-animal shelter.\nIt was founded in 1980 from a legacy bequeathed by the late Mrs. Ruth Cowell of New South Wales, Australia to Shri Sanjay Gandhi.",
+        "logo" : "sgacc.jpg",
+        "phone" : "+91-9560802425",
+        "email" : "sgacc1980@gmail.com",
+        "category": "Animal Welfare",
+        "location": "Delhi"
+    },
+    {
+        "name" : "Visakha Society for the Protection and Care of Animals(VSPCA)",
+        "description" : "Visakha Society for the Protection and Care of Animals (VSPCA) is an animal welfare organization based in Visakhapatnam, India. VSPCA focuses on rescuing and rehabilitating injured and abandoned animals, conducting sterilization and vaccination programs to control the stray animal population, and promoting animal rights and veganism. They also run shelters and sanctuaries, including a dedicated space for rescued cattle, birds, and wildlife.",
+        "logo" : "vspca.png",
+        "phone" : "+91-9490494275",
+        "email" : "info@vspca.org",
+        "category": "Animal Welfare",
+        "location": "Bengaluru"
+    },
+    {
+        "name" : "Frendicoes SECA",
+        "description" : "Based in Delhi, Friendicoes provides medical care and shelter to stray animals. They operate a clinic, two operation theaters, a lab, an X-ray unit, and a sanctuary in Gurgaon housing about a thousand animals. They also offer round-the-clock ambulance services.",
+        "logo" : "Frendicoes.jpg",
+        "phone" : "+91-8882931057",
+        "email" : "friendicoes.india@gmail.com",
+        "category": "Animal Welfare",
+        "location": "Delhi"
+    },
+    {
+        "name": "SEWA (Self Employed Women's Association)",
+        "description": "SEWA is a trade union that organizes women workers in the informal economy towards full employment and self-reliance. Founded in 1972 by Ela Bhatt, SEWA empowers its members through advocacy, capacity building, and access to financial and social services.",
+        "logo": "sewa.png",
+        "category": "Women and Child Empowerment",
+        "phone" : "+91-7925506444",
+        "email" : "mail@sewa.org",
+        "location": "Ahemadabad"
+    },
+    {
+        "name": "Naandi Foundation",
+        "description": "Naandi Foundation works on child rights, education, and women's empowerment through sustainable community development programs. Established in 1998, Naandi's initiatives focus on improving healthcare, education, and livelihoods in underserved communities across India.",
+        "logo": "naandi.png",
+        "category": "Women and Child Empowerment",
+        "phone" : "+91-4023556491",
+        "email" : "info@naandi.org",
+        "location": "Hyderabad"
+    },
+    {
+        "name": "MAMTA Health Institute for Mother and Child",
+        "description": "MAMTA HIMC focuses on maternal and child health, nutrition, and empowerment of women through healthcare and education interventions. Since 1990, MAMTA has been instrumental in improving maternal and child health outcomes by implementing innovative programs and advocating for policy changes.",
+        "logo": "mamtahimc.png",
+        "category": "Women and Child Empowerment",
+        "phone" : "+91-1141069597",
+        "email" : "mamta@mamtahimc.in",
+        "location": "Delhi"
+    },
+    {
+        "name": "Lakshyam",
+        "description": "Lakshyam supports education and welfare for children from marginalized communities, emphasizing holistic development. Established in 2004, Lakshyam runs multiple projects focusing on education, skill development, and healthcare to break the cycle of poverty and empower children to lead dignified lives.",
+        "logo": "lakshyam.png",
+        "category": "Women and Child Empowerment",
+        "phone" : "+91-9540790002",
+        "email" : "support@lakshyam.co.in",
+        "location": "Delhi"
+    },
+    {
+        "name": "Doctors For You",
+        "description": "Doctors For You (DFY) started as a platelet donation and awareness drive to manage the outbreak of Dengue, Leptospirosis, and Malaria in Mumbai in 2007. Over the past 12 years, DFY has established itself as an organization with the technical capacity to respond to different types of humanitarian crises and the leading medical humanitarian organization in the country.",
+        "logo": "doctorsforyou.jpeg",
+        "category": "Healthcare",
+        "phone" : "+91-8826173556",
+        "email" : "info@doctorsforyou.org",
+        "location": "Mumbai"
+    },
+    {
+        "name": "Rural Health Care Foundation",
+        "description": "Rural Health Care Foundation (RHCF), an organisation working in the sphere of healthcare since 2009, has been providing high quality and affordable primary medical care to low-income and underprivileged communities of West Bengal. Focused on making healthcare accessible to the poorest and the most deprived, RHCF has 17 centres operating across the state, 12 of which are in remote rural areas. The healthcare centres provide patients with affordable medical consultation along with 1-week supply of free medications. Till date over 23 lakh patients have been treated at the RHCF centres, and its goal is to continue to improve the health and lives of the under-served, despite their social and financial challenges.",
+        "logo": "ruralhealthcare.jpg",
+        "category": "Healthcare",
+        "phone" : "(033) 40042981",
+        "email" : "rhcf2009@gmail.com",
+        "location": "Kolkata"
+    },
+    {
+        "name": "Swasth Foundation",
+        "description": "Swasth Foundation is a not-for-profit organisation established in 2009 with the vision of Health and Joy for All. Our Mission is to Build an accountable integrated health system with joy. Our first goal is to build an accountable integrated health system for the city of Mumbai which is home to ~30 million people.",
+        "logo": "swasthfoundation.jpg",
+        "category": "Healthcare",
+        "phone" : "+91-9594547374",
+        "email" : "info@swasth.org",
+        "location": "Bengaluru"
+    },
+    {
+        "name": "CanKids KidsCan",
+        "description": "CanKids KidsCan - The National Society For Change For Childhood Cancer in India works across the entire spectrum of Childhood Cancer Care. Through our signature program YANA - You Are Not Alone - we hold the hands of the child with cancer and family. We partner with hospitals, medical professionals, and state governments to enable access and best standards of treatment, care and support across 53 cities and 22 states of India.",
+        "logo": "cankids.jpg",
+        "category": "Healthcare",
+        "phone" : "+91-9953591578",
+        "email" : "info@cankidsindia.org",
+        "location": "Bengaluru"
+    },
+    {
+        "name": "Movement for Alternatives and Youth Awareness (MAYA)",
+        "description": "Movement for Alternatives and Youth Awareness (MAYA) is a Karnataka based Non-profit organization was started in 1991 and has been involved in addressing social issues of: - Education/Vocational Training - Healthcare – Livelihoods . Currently MAYA has 2 programs- MAYA Health and Livelihood.",
+        "logo": "maya.jpg",
+        "category": "Healthcare",
+        "phone" : "+91-9448283800",
+        "email" : "info@mayaindia.org",
+        "location": "Bengaluru"
+    },
+    {
+        "name": "Pratham",
+        "description": "Pratham is an innovative learning organization created to improve the quality of education in India. Established in 1995 to provide education to children in the slums of Mumbai, Pratham has grown in both scope and scale, with programs today reaching children and youth across the country.\nAs one of the largest non-governmental organizations in the country, Pratham focuses on high-quality, low-cost and replicable interventions to address gaps in the education system. Working directly with children and youth as well as through large-scale collaborations with government systems, Pratham programs reach millions of lives every year. Pratham’s Teaching at the Right Level (TaRL) approach has demonstrated proven impact on children’s learning outcomes and is now being adapted to contexts outside India.",
+        "logo": "pratham.png",
+        "category": "Educational",
+        "phone" : "022-22819561",
+        "email" : "info@pratham.org",
+        "location": "Mumbai"
+    },
+    {
+        "name": "Teach For India",
+        "description": "Teach For India was founded in 2008. Inspired by Teach For America’s journey, we worked with McKinsey & Company to craft a blueprint around the belief that all children must attain an excellent education.",
+        "logo": "teachforindia.png",
+        "category": "Educational",
+        "phone" : "022-25194283",
+        "email" : "info@teachforindia.org",
+        "location": "Bengaluru"
+    },
+    {
+        "name": "Agastya International Foundation",
+        "description": "Agastya International Foundation is named for the revered Indian sage Agastya, a beacon of learning and spirituality who traveled across the Indian subcontinent espousing integration and harmony.\nThe great sage is said to have crossed the Vindhyas from North India to Southern India, unified the two lands, created the Siddha school of herbal medicine and authored a grammar for Tamil Language (an ancient language that flourishes till date).",
+        "logo": "agastya.png",
+        "category": "Educational",
+        "phone" : "+91-80-41124132",
+        "email" : "info@agastya.org",
+        "location": "Bengaluru"
+    },
+    {
+        "name": "Central Square Foundation",
+        "description": "Our aspiration is that all children in India, regardless of their social and economic status, will receive high quality school education that prepares them to become responsible and productive citizens. We hope to attain this objective by dispensing grants to support early-stage organisations through capital and capacity building; developing a research ecosystem focused on devising collaborative platforms for knowledge-building and sharing, and engaging with the Central and state governments to strengthen policy formulation and implementation.",
+        "logo": "centralsquare.png",
+        "category": "Educational",
+        "phone" : "+91-9742061128",
+        "email" : "info@centralsquarefoundation.org" ,
+        "location": "Delhi"
+    },
+    {
+        "name": "Parikrma Humanity Foundation",
+        "description": "They said enabling free education for the poor is fundamental. They said poverty can be fought with goodwill and sharing. What we don’t witness is how children from poor families still never make it to the mainstream/break this cycle of poverty. What about the community and its development, which is critical to a child’s mental health and growth? The answers point towards lack of quality education, long-term support both to the child and the family, equal opportunity, the power of choice and gender equity. There is little evidence of such a working model in the country.",
+        "logo": "parikrma.png",
+        "category": "Educational",
+        "phone" : "+91-80-23635781",
+        "email" : "info@parikrmafoundation.org",
+        "location": "Bengaluru"
+    },
+    {
+        "name": "Wildlife Trust of India (WTI)",
+        "description": "WTI is dedicated to the conservation of nature and the protection of wildlife and their habitats.",
+        "logo": "wti.png",
+        "category": "Environmental and Wildlife Conservation",
+        "email": "info@wti.org.in",
+        "phone": "+91-1204143900",
+        "location": "Noida"
+    },
+    {
+        "name": "WWF India",
+        "description": "WWF India works to stop the degradation of the planet's natural environment and to build a future in which humans live in harmony with nature.",
+        "logo": "wwf.png",
+        "category": "Environmental and Wildlife Conservation",
+        "email": "contact@wwfindia.net",
+        "phone": "+91-1141504823",
+        "location": "Delhi"
+    },
+    {
+        "name": "Mukti",
+        "description": "Mukti is a grassroots organization that works to protect the local ecosystem and promote sustainable development. They have a strong focus on community-based conservation, education, and research.",
+        "logo": "mukti.png",
+        "category": "Environmental and Wildlife Conservation",
+        "email": "info@muktiweb.org",
+        "phone": "+91-6290589664",
+        "location": "Kolkata"
+    },
+    {
+        "name": "Nature Conservation Foundation",
+        "description": "The Nature Conservation Foundation (NCF), established in 1996, is a wildlife research and conservation non-profit that uses both science and sociology to understand and secure wild species and places in India.\nAt NCF, our goal is to contribute to the knowledge and conservation of India’s unique wildlife heritage with innovative research and imaginative solutions. We work in a range of wildlife habitats—from coral reefs and tropical rainforests to the high mountains of the Himalaya.",
+        "logo": "ncf.png",
+        "category": "Environmental and Wildlife Conservation",
+        "email": "smita@ncf-india.org",
+        "phone": "+91-80-23648778",
+        "location": "Bengaluru"
+    }
+]

@@ -1,0 +1,25 @@
+<!-- chat/templates/chat/chat_room.html -->
+{% extends 'NGO/base.html' %}
+{% load static %}
+{% block title %}
+<link rel="stylesheet" type = "text/css" href="{% static 'chatRoomstyles.css' %}">
+{% endblock %}
+{% block content %}
+<div class="parent-container">
+<div class="chat-container">
+    <h2>Chat with Admin</h2>
+    <div id="message-container">
+        {% for message in messages %}
+            <div>
+                <strong>{{ message.sender.username }}</strong>: {{ message.content }} <br> {{message.timestamp}}
+            </div>
+        {% endfor %}
+    </div>
+    <form method="post" action="{% url 'send_message' room.id %}">
+        {% csrf_token %}
+        <textarea name="content" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</div>
+</div>
+{% endblock %}

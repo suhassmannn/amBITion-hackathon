@@ -1,0 +1,24 @@
+{% extends 'NGO/base.html' %}
+{% load static %}
+{% block title %}
+<link rel="stylesheet" type = "text/css" href="{% static 'chatRoomstyles.css' %}">
+{% endblock %}
+{% block content %}
+<div class="parent-container">
+    <div class="chat-container">
+        <h2>Chat with {{ chat_room.user.username }}</h2>
+        <div id="message-container">
+            {% for message in messages %}
+                <div>
+                    <strong>{{ message.sender.username }}</strong>: {{ message.content }} <br> {{ message.timestamp }}
+                </div>
+            {% endfor %}
+        </div>
+        <form method="post" action="{% url 'send_admin_message' chat_room.user.id %}">
+            {% csrf_token %}
+            <textarea name="content" rows="4" cols="50" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

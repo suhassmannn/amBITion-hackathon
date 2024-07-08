@@ -1,0 +1,36 @@
+{% extends 'NGO/base.html' %}
+{% load static %}
+{% block content %}
+<div class="album py-5 bg-body-tertiary">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        {% for sub in data %}
+        <div class="col">
+          <div class="card shadow-sm"> 
+            
+            <img class="bd-placeholder-img card-img-top" width="100%" height="200" src="{% static sub.image_src %}"    preserveAspectRatio="xMidYMid slice" focusable="false" />
+            {% comment %} <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns={{sub.image_src}} role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"> {% endcomment %}
+               
+                {% comment %} </svg> {% endcomment %}
+             
+                <text style="font-weight:bold" x="50%" y="50%" fill="#eceeef" dy=".3em">{{sub.title}}</text>
+               
+            <div class="card-body">
+              <p class="card-text">{{sub.description}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    {% comment %} <progress id="file" max="100" value="70">70%</progress> {% endcomment %}
+               <a href="{% url 'donation' %}"> <button type="button"  class="btn btn-danger">Donate</button></a> 
+                                      {% comment %} <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> {% endcomment %}
+                </div>
+                
+                <small class="text-body-secondary" style="font-weight:bold">{{sub.money}}</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endblock %}

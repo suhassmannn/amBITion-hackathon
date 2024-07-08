@@ -1,0 +1,22 @@
+{% extends 'NGO/base.html' %}
+{% load static %}
+{% block title %}
+<link rel="stylesheet" type="text/css" href="{% static 'categories.css' %}">
+{% endblock %}
+{% block content %}
+<div class="card-container">
+    <div class="row">
+        {% for ngo in ngos_in_category %}
+        <div class="col-md-4">
+            <div class="card" style="background-color:#dc3545;">
+                <div class="card-name">
+                    <a href="{% url 'ngo_view' ngo=ngo.name|urlencode %}" style="text-decoration: None; color:white">{{ ngo.name }}</a>
+                    <!-- Include location in the URL -->
+                </div>
+                <!-- You can add more card details like description, image, etc. -->
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

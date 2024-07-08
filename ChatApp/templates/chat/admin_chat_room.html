@@ -1,0 +1,25 @@
+{% extends 'NGO/base.html' %}
+{% load static %}
+{% block title %}
+<link rel="stylesheet" type = "text/css" href="{% static 'adminChat.css' %}">
+{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="sidebar">
+        <h2>Users</h2>
+        {% if chat_rooms %}
+            <ul class="chat-list">
+                {% for room in chat_rooms %}
+                    <li>
+                        <a href="{% url 'admin_chat_with_user' room.id %}">
+                            Chat with {{ room.user.username }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p class="no-rooms">No chat rooms available.</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    height: 100vh; /* Adjusts height of container to full viewport height */
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+    padding: 20px; /* Adjust padding as needed */
+    margin-bottom: 500px; /* Example: Moves sidebar 50px up */
+}
+
+.chat-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.chat-list li {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.chat-list li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.chat-list li a:hover {
+    background-color: #e0e0e0;
+}
+
+.no-rooms {
+    padding: 20px;
+    text-align: center;
+}

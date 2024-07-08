@@ -1,0 +1,109 @@
+{
+  "donation_drives": [
+    {
+      "title": "Clean Water Initiative",
+      "description": "Providing clean and safe drinking water to communities in remote areas.",
+      "details": "Funds will support water purification systems, wells, and sanitation education.",
+      "money": 40000,
+      "image_src": "/images/campaigns/clean_water.jpg" 
+    },
+    {
+      "title": "Elderly Care Support",
+      "description": "Improving the quality of life for elderly individuals through healthcare and social services.",
+      "details": "Donations will provide medical check-ups, home care assistance, and recreational activities.",
+      "money": 25000,
+      "image_src": "/images/campaigns/elder_care.jpeg"
+    },
+    {
+      "title": "Art and Culture Preservation",
+      "description": "Preserving and promoting traditional arts and cultural heritage.",
+      "details": "Funding will support art exhibitions, workshops, and archival projects.",
+      "money": 35000,
+      "image_src": "/images/campaigns/art_culture.jpeg"
+    },
+    {
+      "title": "Homeless Shelter Expansion",
+      "description": "Expanding shelter facilities and providing support services for homeless individuals.",
+      "details": "Donations will help build new shelters, provide meals, and offer job training programs.",
+      "money": 50000,
+      "image_src": "/images/campaigns/homeless_shelter.jpeg"
+    },
+    {
+      "title": "Community Health Clinic",
+      "description": "Establishing a community health clinic to provide accessible healthcare services.",
+      "details": "Funding will cover medical equipment, staff salaries, and health education programs.",
+      "money": 60000,
+      "image_src": "/images/campaigns/health_clinic.jpeg"
+    },
+    {
+      "title": "Youth Empowerment Program",
+      "description": "Empowering youth through education, mentorship, and skills development.",
+      "details": "Donations will support after-school programs, vocational training, and leadership workshops.",
+      "money": 45000,
+      "image_src": "/images/campaigns/youth_empowerment.jpeg"
+    },
+    {
+      "title": "Environmental Conservation",
+      "description": "Protecting biodiversity and natural ecosystems through conservation efforts.",
+      "details": "Funding will be used for reforestation projects, wildlife conservation, and sustainable farming.",
+      "money": 70000,
+      "image_src": "/images/campaigns/environment_conservation.jpg"
+    },
+    {
+      "title": "Disability Rights Advocacy",
+      "description": "Advocating for the rights and inclusion of people with disabilities.",
+      "details": "Donations will support awareness campaigns, accessibility improvements, and legal advocacy.",
+      "money": 30000,
+      "image_src": "/images/campaigns/disability_rights.jpeg"
+    },
+    {
+      "title": "Arts Education for Children",
+      "description": "Providing arts education programs to enhance creativity and cultural appreciation among children.",
+      "details": "Funding will support art classes, music lessons, and theater workshops.",
+      "money": 40000,
+      "image_src": "/images/campaigns/art_education.jpeg"
+    },
+    {
+      "title": "Emergency Relief Fund",
+      "description": "Providing rapid assistance to communities affected by natural disasters and humanitarian crises.",
+      "details": "Donations will help provide emergency supplies, shelter, and medical aid.",
+      "money": 80000,
+      "image_src": "/images/campaigns/emergency_relief.jpeg"
+    },
+    {
+      "title": "Digital Literacy Program",
+      "description": "Promoting digital literacy and access to technology in underserved communities.",
+      "details": "Funding will support computer labs, coding workshops, and internet connectivity projects.",
+      "money": 35000,
+      "image_src": "/images/campaigns/digital_literacy.jpeg"
+    },
+    {
+      "title": "Cancer Research Initiative",
+      "description": "Supporting research efforts to find cures and improve treatments for cancer patients.",
+      "details": "Donations will fund laboratory equipment, clinical trials, and patient support programs.",
+      "money": 70000,
+      "image_src": "/images/campaigns/cancer_research.jpeg"
+    },
+    {
+      "title": "Microfinance for Entrepreneurs",
+      "description": "Providing microloans and business training to aspiring entrepreneurs in low-income communities.",
+      "details": "Funding will support small business startups and economic empowerment initiatives.",
+      "money": 50000,
+      "image_src": "/images/campaigns/microfinance_enterprenuers.jpeg"
+    },
+    {
+      "title": "Gender Equality Campaign",
+      "description": "Promoting gender equality and empowering women and girls through education and advocacy.",
+      "details": "Donations will support gender-sensitive programs, leadership training, and policy initiatives.",
+      "money": 60000,
+      "image_src": "/images/campaigns/gender_equality.jpeg"
+    },
+    {
+      "title": "Refugee Support Initiative",
+      "description": "Providing humanitarian aid and resettlement support to refugees fleeing conflict and persecution.",
+      "details": "Donations will help provide shelter, food, and education for displaced families.",
+      "money": 80000,
+      "image_src": "/images/campaigns/refugee_support.jpeg"
+    }
+  ]
+}

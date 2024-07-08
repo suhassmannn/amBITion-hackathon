@@ -1,0 +1,27 @@
+{% extends 'NGO/base.html' %}
+{% load static %}
+{% block title %}
+<link rel="stylesheet" type="text/css" href="{% static 'contact.css' %}">
+{% endblock %}
+{% block content %}
+<main>
+    <section class="contact-content mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact-item">
+                        <h2>Number:</h2>
+                        <p>+91-9742061128</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-item">
+                        <h2>Email:</h2>
+                        <p>info@sahaayak.org</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+{% endblock %}

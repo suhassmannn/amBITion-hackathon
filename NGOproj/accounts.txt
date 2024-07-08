@@ -1,0 +1,5 @@
+username: suhassmannn
+password: #new@pass
+
+superuser: suhaas
+password: 1234567890

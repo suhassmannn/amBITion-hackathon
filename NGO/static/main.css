@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li a:hover {
+    color: red;
+    font-size: medium;
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.navbar-nav li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: red;
+    transition: width .3s;
+}
+
+.navbar-nav li a:hover::after {
+    width: 100%;
+}
+
+.auth-buttons .start-fundraiser:hover {
+    background-color: #e0e0e0;
+    border: 1px solid black;
+}
+
+.auth-buttons .login:hover {
+    background-color: #b30000;
+    border: 1px solid black;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show dropdown menu on hover */
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.hero {
+    position: relative; /* Ensure proper positioning context */
+    z-index: 1; /* Ensure hero section appears above */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.navbar {
+    position: relative; /* Ensure navbar positioning context */
+    z-index: 2; /* Ensure navbar appears above hero */
+}
+
+.navbar-toggler {
+    position: absolute; /* Position toggler */
+    top: 10px; /* Adjust top position as needed */
+    right: 10px; /* Adjust right position as needed */
+    z-index: 3; /* Ensure toggler appears on top */
+}
+
+
+.stats {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.stats .col-lg-4 {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.stats .col-lg-4:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.stats h2 {
+    font-size: 2.5em;
+    color: #f57c00;
+    margin: 0;
+    font-weight: bold;
+}
+
+.stats h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+
+/* Adjust the size of the expand/collapse icons */
+.MuiIconButton-label svg {
+    width: 16px; /* Adjust the width as needed */
+    height: 16px; /* Adjust the height as needed */
+  }
+  
+  /* Adjust the size of the expand/collapse icons within the .faq-tab container */
+.faq-tab .MuiIconButton-label svg {
+    width: 16px; /* Adjust the width as needed */
+    height: 16px; /* Adjust the height as needed */
+  }
+
+  .faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .faq-question {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+  }
+  
+  .faq-answer {
+    display: none;
+    padding: 10px;
+    border-left: 2px solid #4CAF50;
+    margin-left: 10px;
+  }
+  
+  .faq-question.active {
+    background-color: #e0e0e0;
+  }
+  
+  .faq-question.active + .faq-answer {
+    display: block;
+  }
+  
